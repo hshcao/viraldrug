@@ -1,15 +1,15 @@
-receptor = xxx.pdbqt
+receptor = xxx.pdbqt          # Receptor file in PDBQT format (prepared protein)
 
-center_x = xxx
-center_y = xxx
-center_z = xxx
+center_x = xxx                # X coordinate of the grid center (typically around active site)
+center_y = xxx                # Y coordinate of the grid center
+center_z = xxx                # Z coordinate of the grid center
 
-size_x = xx # size of x in Angstrom
-size_y = xx # size of y in Angstrom
-size_z = xx # size of z in Angstrom
+size_x = xx                   # Grid box size in the X dimension (in Ångströms)
+size_y = xx                   # Grid box size in the Y dimension
+size_z = xx                   # Grid box size in the Z dimension
 
-spacing = 0.5
+spacing = 0.5                 # Grid point spacing (default is 0.375 Å, 0.5 gives coarser grid)
 
-exhaustiveness = 32
+exhaustiveness = 32           # Search thoroughness (higher = more thorough but slower)
 
-num_modes = 50
+num_modes = 50                # Maximum number of binding poses to generate and output
